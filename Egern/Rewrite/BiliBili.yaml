@@ -15,7 +15,7 @@ url_rewrites:
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
-  - match: ^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\?
+  - match: ^https:\/\/(api\.bilibili\.com\/x\/mengqi\/v1\/resource|app\.bilibili\.com\/x\/resource\/peak\/download)\?
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
